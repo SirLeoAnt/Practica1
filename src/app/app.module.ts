@@ -1,16 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ListaActividadesComponent } from './lista-actividades/lista-actividades.component';
+import { ActividadesComponent } from './actividades/actividades.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListaActividadesComponent,
+    ActividadesComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
